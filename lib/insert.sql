@@ -19,7 +19,7 @@ INSERT INTO users (name, age) VALUES ("Adam H", 27);
 INSERT INTO users (name, age) VALUES ("Brandon", 26);
 INSERT INTO users (name, age) VALUES ("Braton", 29);
 
--- INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Lego Harry Potter", "game", 50000, "January 7th", "March 7th")
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Lego Harry Potter", "game", 50000, "January 7th", "March 7th")
 -- INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Lego Jurassic Park", "game", 60000, "December 7th", "January 8th")
 -- INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("LOTR", "movie", 1000000, "April 26th", "October 10th")
 -- INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Drink Wine and Get a Haircut", "short film", 6000, "now", "never")
