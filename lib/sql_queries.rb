@@ -45,8 +45,7 @@ end
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
   "SELECT Projects.category, Pledges.amount
   FROM pledges
-  LEFT OUTER JOIN projects
-  WHEREProjects.category = 'music'"
+  LEFT OUTER JOIN projects;"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
