@@ -13,9 +13,9 @@ CREATE TABLE users (
   age TEXT
 );
 
-CREATE TABLE table (
-  id INTEGER PRIMARY KEY,
-  amount INTEGER,
-  user_id TEXT,
-  project_id TEXT
-);
+-- CREATE TABLE table (
+--   id INTEGER PRIMARY KEY,
+--   amount INTEGER,
+--   user_id TEXT,
+--   project_id TEXT
+-- );
