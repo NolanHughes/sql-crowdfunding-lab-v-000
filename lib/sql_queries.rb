@@ -12,7 +12,7 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_
 #   LEFT OUTER JOIN pledges
 #   ON projects.id = pledges.project_id
 #   ORDER BY(Projects.title);"
-  "SELECT project_id, SUM(amount)
+  "SELECT Project.title, SUM(amount)
   FROM pledges
   GROUP BY project_id;"
 end
