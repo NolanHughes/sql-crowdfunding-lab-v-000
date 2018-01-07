@@ -30,7 +30,7 @@ FROM pledges
 LEFT OUTER JOIN projects
 ON pledges.project_id = projects.id
 GROUP BY project_id
-HAVING SUM(Pledges.amount) > Projects.funding_goal;"
+HAVING SUM(Pledges.amount) >= Projects.funding_goal;"
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
